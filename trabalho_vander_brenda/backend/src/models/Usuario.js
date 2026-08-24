@@ -27,13 +27,13 @@ class Usuario {
     }
 }
 
-const user1 = new Usuario(1, "Vander Martins", "123", "2000-04-14T00:00:00", Genero.M);
+const user1 = new Usuario(1, "Brenda Alessio", "123", "2000-04-14T00:00:00", Genero.F);
 
 console.log("--- Usuário Criado ---");
 console.log(user1);
 console.log(user1.perfil());
 
-user1.nome = "Vander Alves";
+user1.nome = "Brenda Alessio";
 
 console.log("\n--- Usuário Após Alterar Nome ---");
 console.log(user1);

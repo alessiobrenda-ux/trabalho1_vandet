@@ -17,8 +17,8 @@ class Aluno {
 }
 
 // 3. 
-const aluno1 = new Aluno(1, "Ana Silva", "2026-02-10", Turno.MANHA);
-const aluno2 = new Aluno(2, "Carlos Souza", "2026-01-15", Turno.TARDE);
+const aluno1 = new Aluno(1, "Ana Souza", "2026-02-10", Turno.MANHA);
+const aluno2 = new Aluno(2, "Carlos Silva", "2026-01-15", Turno.TARDE);
 
 console.log("--- Estado Inicial ---");
 console.log(aluno1);
